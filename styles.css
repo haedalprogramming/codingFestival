@@ -336,11 +336,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .apply-content p {
     margin-bottom: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .apply-button {
@@ -354,6 +356,9 @@ section {
     cursor: pointer;
     transition: background-color 0.3s;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
 }
 
 .apply-button:hover {
